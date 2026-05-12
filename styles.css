@@ -37,8 +37,7 @@ body {
     padding: 1em 1em;
 
     color: white;
-    box-shadow: 0 4px 12px 3px rgba(0,0,0,0.5); 
-    border-radius : 0px 0px 14px 16px;
+    shadow: 0 4px 12px 3px rgba(0,0,0,0.5); 
     
 }
 
@@ -61,7 +60,7 @@ body {
 }
 
 #bande{
-    background-color: #182ac7;
+    background-color: #2a37ad;
     text-align: center;
     padding: 40px 0;
     color: white;
@@ -129,7 +128,7 @@ body {
 
 #email::placeholder{
     font-weight: bold;
-    opacity: 0.5;
+    opacity: 0.2;
     color: red;
 }
 
@@ -143,7 +142,6 @@ body {
 .logo {
     text-decoration: none;
 
-    transition: color 0.7s;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 15px;
     letter-spacing: 0.2px;
@@ -165,26 +163,25 @@ body {
     justify-content: center;
     gap: 30px;
     padding: 50px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f9;
     flex-wrap: wrap;
 }
 
 
 .bulle {
-    background: #ffffff;
+    background: #d3d3d3;
     border-radius: 5px;
     
     padding: 40px 30px;
     width: 300px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    
     border: 2px solid transparent;
 }
 
 
 .icon {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -193,12 +190,11 @@ body {
     font-size: 1.5rem;
     margin-bottom: 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    
 }
 
 .bulle p {
     color: #5d6d7e;
-    line-height: 1.6;
     
 }
 
@@ -249,3 +245,21 @@ body {
 
     text-transform: uppercase;
 }
+
+ .titre-ca {
+
+    color: #aa0f0f;
+    text-align: center;
+    padding-top: 40px;
+    font-style: normal;
+    font-size: 120px;
+    font-family: fantasy;
+    
+
+
+}
+
+ #revenir {
+    
+    padding-left: 50px;
+ }
